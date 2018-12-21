@@ -7,8 +7,6 @@ body{
     padding: 0;
 }
 
-
-
 .navbar
 {
     background-color:black;
@@ -50,10 +48,9 @@ nav li a{
     color: white;
  }
 /*Mudar a cor do menu quando o cursor for passado por cima*/
- nav .right li a:hover{
-     color: #FF4E00;
+ /*nav .right li a:hover{
      text-decoration:underline; 
- }
+ }*/
 
 /*Compo a imagem de fundo */
  .background {
@@ -168,9 +165,9 @@ div #carh #highlight
  .dropbtn {
     background-color: black;
     color: white;
-    font-size: 16px;
-    border: none;
-    padding-bottom: 18px;
+    padding-bottom: 17px;
+    font-size: 17px;
+    border: none;    
 }
 
 .dropdown {
@@ -179,7 +176,6 @@ div #carh #highlight
 }
 
 .dropdown-content {
-    /*top: 40px;*/
     display: none;
     position: absolute;
     background-color: black;
@@ -187,8 +183,7 @@ div #carh #highlight
     z-index: 1;
 }
 
-.dropdown-content a {
-    color: white;
+.dropdown-content a {   
     padding: 12px 16px;
     text-decoration: none;
     display: block;
