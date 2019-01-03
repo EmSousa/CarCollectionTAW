@@ -209,7 +209,153 @@ div #carh #highlight
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: ;
+
+
+
+/*contact uss part */
+/*Container of the elements */
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height:780.75px;
+    margin-top: 55px;
+  
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    border: 0px;
+    
 }
+
+
+/* Este div com id="info" */
+.info
+{
+ display: flex;
+ background-color: #FF4E00; 
+ height: 100%;
+ width: 25%; 
+ border: 0px;
+ margin: 0%;
+ padding: 0%;
+ margin-bottom: 0%;
+}
+
+
+
+/*unica imagem desta pagina que se encontra dentro de um  div com id="info"*/
+.info img
+{  
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.allcont
+{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+/*buy style code*/
+#buy 
+{
+  
+    
+    margin-top: 40px;
+    margin-bottom:10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#buy h1
+{
+         margin-left: 15px;
+        font-size: 37px;
+        text-align: initial;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        border-bottom: 0px;
+}
+
+#buy h2
+{
+
+    margin-left: 15px;
+    padding: 0%;
+    margin-right: 0%;
+    width: 280px;
+    text-align: initial;
+    font-size: 27px;
+    margin-bottom: 0%;
+}
+
+#buy h2:hover
+{
+    text-shadow: 2px 2px black;
+    text-decoration-style: solid 50px;
+    color: #F8F8F8;
+}
+
+
+/*Chat style code*/
+#chat 
+{
+  
+    
+    margin-top: 40px;
+    margin-bottom:10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#chat h1
+{
+    margin-top: 0%;
+         margin-left: 15px;
+        font-size: 37px;
+        text-align: initial;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        border-bottom: 0px;
+        margin-right: 15px;
+}
+
+#chat h2
+{
+
+    margin-left: 15px;
+    padding: 0%;
+    margin-right: 0%;
+    width: 270px;
+    text-align: initial;
+    font-size: 27px;
+}
+
+#chat h2:hover
+{
+    text-shadow: 2px 2px black;
+    text-decoration-style: solid 50px;
+    color: #F8F8F8;
+}
+
+
+#email
+{
+    
+    font-size: 10px;
+    margin-left: 30px
+
+}
+
  
