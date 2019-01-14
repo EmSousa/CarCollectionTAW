@@ -79,7 +79,7 @@ nav li a{
 
 .background h1{
     margin-top: 50px;
-    padding-top: 200px;
+    padding-top: 150px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -149,6 +149,7 @@ nav li a{
 .higlights a:hover 
 {
     background-color: #FF4E00;
+    padding-bottom: 25px;
     text-decoration: none;
 }
 
@@ -220,7 +221,7 @@ div #carh #highlight
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height:780.75px;
+    height:100%;
     margin-top: 55px;
   
     padding-bottom: 0%;
@@ -233,40 +234,23 @@ div #carh #highlight
 /* Este div com id="info" */
 .info
 {
- display: flex;
- background-color: #FF4E00; 
- height: 100%;
- width: 25%; 
- border: 0px;
- margin: 0%;
- padding: 0%;
- margin-bottom: 0%;
-}
-
-
-
-/*unica imagem desta pagina que se encontra dentro de um  div com id="info"*/
-.info img
-{  
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    width: 100%;
-    height: 100%;
-}
-
-
-
-.allcont
-{
-
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-flow: row;
     flex-wrap: wrap;
-    margin-bottom: 0px;
-    border-bottom: 0px;
-    padding-bottom: 0px;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 75%;
+    background-color: #FF4E00;  
+}
 
+
+/*unica imagem desta pagina que se encontra dentro de um  div com id=""*/
+.imagem
+{  
+    background-image: url("https://images.pexels.com/photos/1231643/pexels-photo-1231643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
 }
 
 /*buy style code*/
@@ -279,17 +263,16 @@ div #carh #highlight
 }
 #buy h1
 {
-         margin-left: 15px;
-        font-size: 37px;
-        text-align: initial;
-        margin-bottom: 0%;
-        padding-bottom: 0%;
-        border-bottom: 0px;
+    margin-left: 15px;
+    font-size: 37px;
+    text-align: initial;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    border-bottom: 0px;
 }
 
 #buy h2
 {
-
     margin-left: 15px;
     padding: 0%;
     margin-right: 0%;
@@ -371,10 +354,10 @@ div #carh #highlight
   div.carcontainers{
     margin: auto;
     margin-top: 15px;
-      padding: 10px;
-      display: flex;
-      flex-flow: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-bottom: 15px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
     }
