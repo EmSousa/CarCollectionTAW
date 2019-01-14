@@ -354,10 +354,11 @@ div #carh #highlight
     margin-left: 30px;
 }
 
- /*Flex container*/
+ /*Flex container
  .flex-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-flow: row;
+    flex-wrap: wrap;
   }
 
   .flex-container > div {
@@ -365,4 +366,15 @@ div #carh #highlight
     width: 100%;
     margin: 10px;
     text-align: center;
-  }
+  }*/
+
+  div.carcontainers{
+    margin: auto;
+    margin-top: 15px;
+      padding: 10px;
+      display: flex;
+      flex-flow: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
