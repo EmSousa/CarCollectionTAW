@@ -108,7 +108,7 @@ nav li a{
 }
 
 .carh{ 
-    background-color: white;
+    background-color: black;
 }
 
 /*Higlights dos carros*/
@@ -142,8 +142,7 @@ nav li a{
 
 .xpto
 {
-    padding: 10px;
-    
+    padding: 10px;    
 }
 
 .higlights a:hover 
@@ -156,7 +155,7 @@ nav li a{
 .higlights a p{margin-top: 0px;}
 
 
-.higlights a p:hover
+/*.higlights a p:hover*/
 {
    /*background-color: grey;*/
 
